@@ -70,9 +70,6 @@ const App = () => {
             <Load/>
          ) 
          }
-
-
-
       </div>
    )
 }
