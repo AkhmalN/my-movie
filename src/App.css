@@ -6,8 +6,8 @@
 body {
    background-color: #251749;
 }
-
 .header {
+   width: 100%;
    height: 70px;
    color: aliceblue;
    background-color: #495579;
@@ -97,8 +97,38 @@ body {
    width: 200px;
    height: 250px;
 }
+.searched{
+   height: 40px;
+   color: white;
+   margin-top: 30px;
+   width: 70%;
+   display: flex;
+}
+.x{
+   flex-basis: 2%;
+   height: 40px;
+   background-color: #D61355;
+}
+.search-term-field{
+   padding-left: 10px;
+   display: flex;
+   align-items: center;
+   height: 40px;
+   flex-basis: 98%;
+   background-color: #20262E;
+}
+.featured-movies{
+   background-color: #D61355;
+   border-top-right-radius: 20px;
+   border-top-left-radius: 20px;
 
+}
+.featured-movies-unrated{
+   background-color: #F16767;
+   border-top-right-radius: 20px;
+   border-top-left-radius: 20px;
 
+}
 /* Loading */
 
 .loading-container{
@@ -205,3 +235,14 @@ body {
       transform: scale(1.0);
    }
 }
+@media only screen and (max-width: 768px) {
+   .header{
+     flex-direction: column;
+     height: 130px;
+   }
+   .searched{
+      height: 40px;
+      width: 80%;
+      
+   }
+ }

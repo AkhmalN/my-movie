@@ -1,7 +1,3 @@
-
-
-
-
 const Load = () => {
    return (
       <div className="loading-container">

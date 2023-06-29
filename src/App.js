@@ -35,11 +35,14 @@ const App = () => {
 
 
    return (
-      <div className="App">
+      <div className="App" style={{display : 'flex', 
+      flexDirection : 'column', 
+      justifyContent : 'center', 
+      alignItems : 'center'}}>
          <div className="header">
             <div className="header-title" style={{display : 'flex'}}>
                <img src={HeaderIcon} alt = {HeaderIcon} style = {{width : '80px', height : '70px'}}/>
-               <h1>MovieApp</h1>
+               <h1>Mall Movie</h1>
             </div>
             <div className="header-input">
                <input
@@ -55,12 +58,14 @@ const App = () => {
             </div>
          </div>
          <div className="searched">
-            <h2>You are Searching For "{seacrhTerm}"</h2>
+            <div className="x"></div>
+            <div className="search-term-field">Searching For {seacrhTerm}</div>
          </div>
          {movies?.length > 0 ? (
             <div className="container">
                {movies.map((movie, idx) => {
                   return(
+                     
                      <Card key={idx} movie={ movie }/>
                   )
                })}
