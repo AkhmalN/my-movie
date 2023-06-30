@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/my-movie/static/css/main.8eab86f1.css",
+    "main.js": "/my-movie/static/js/main.5dc241a6.js",
+    "static/media/Movie.png": "/my-movie/static/media/Movie.8eec47316b9a35493c4f.png",
+    "static/media/loupe.png": "/my-movie/static/media/loupe.b62ade8f520807722398.png",
+    "index.html": "/my-movie/index.html",
+    "main.8eab86f1.css.map": "/my-movie/static/css/main.8eab86f1.css.map",
+    "main.5dc241a6.js.map": "/my-movie/static/js/main.5dc241a6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8eab86f1.css",
+    "static/js/main.5dc241a6.js"
+  ]
+}
