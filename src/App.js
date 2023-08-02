@@ -6,7 +6,7 @@ import Card from "./MovieCard"
 import Load from "./load"
 
 const App = () => {
-   const API_URL = 'http://www.omdbapi.com?apikey=90557500'
+   const API_URL = 'https://www.omdbapi.com?apikey=90557500'
 
 
    const [movies, setMovies] = useState([])
